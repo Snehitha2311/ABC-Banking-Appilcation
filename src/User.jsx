@@ -93,7 +93,7 @@ function User(props) {
         <Fragment>
             <div className="user">
             <Card style={{ width: '24rem' }}>
-                <Card.Body>
+                <Card.Body style={{backgroundImage: `url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7C7nF7qzDqlU_kAykRg3KkiNYNgXnPVOQAQ&usqp=CAU")` ,backgroundSize: 'cover'}}>
                     <Card.Title className=''>User Login</Card.Title><br />
                     <Card.Subtitle className="mb-2 text-muted"><small>Please check that you are visiting the correct URL</small></Card.Subtitle>
                     <Card.Text>
